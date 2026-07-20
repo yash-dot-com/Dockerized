@@ -6,3 +6,13 @@
 - assign ENV variables if any 
 - run
 
+## compiling golang for a specific platform 
+
+```bash 
+GOOS=<target-os> GOARCH=<target-architecture> go build <file-name>
+```
+
+- GOOS : target operating system 
+- GOARCH : target machine architecture 
+
+
